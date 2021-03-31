@@ -1,0 +1,25 @@
+
+
+.container {
+    border: 1px solid black;
+    width: 140px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.box, .taken {
+    width: 20px;
+    height: 20px;
+}
+
+.player-one {
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.player-two {
+    background-color: red;
+    border-radius: 50%;
+}
