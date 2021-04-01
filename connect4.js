@@ -38,24 +38,24 @@ const winningArray = [
 
 function checkBoard(){
 
-            for(let y = 0; y < winningArray.length; y++){
-                const box1 = boxes[winningArray[y][0]]  
-                const box2 = boxes[winningArray[y][1]]
-                const box3 = boxes[winningArray[y][2]]
-                const box4 = boxes[winningArray[y][3]]
-                
-                if (box1.classList.contains("player-one") && 
-                    box2.classList.contains("player-one") && 
-                    box3.classList.contains("player-one") &&
-                    box4.classList.contains("player-one")){
-                        result.textContent = "Player 1 wins!";
+        for(let y = 0; y < winningArray.length; y++){
+            const box1 = boxes[winningArray[y][0]]  
+            const box2 = boxes[winningArray[y][1]]
+            const box3 = boxes[winningArray[y][2]]
+            const box4 = boxes[winningArray[y][3]]
+            
+            if (box1.classList.contains("player-one") && 
+                box2.classList.contains("player-one") && 
+                box3.classList.contains("player-one") &&
+                box4.classList.contains("player-one")){
+                    result.textContent = "Player 1 wins!";
 
-                } if (box1.classList.contains("player-two") && 
-                      box2.classList.contains("player-two") && 
-                      box3.classList.contains("player-two") &&
-                      box4.classList.contains("player-two")){
-                        result.textContent = "Player 2 wins!";
-            }
+            } if (box1.classList.contains("player-two") && 
+                    box2.classList.contains("player-two") && 
+                    box3.classList.contains("player-two") &&
+                    box4.classList.contains("player-two")){
+                    result.textContent = "Player 2 wins!";
+        }
     }
 }
 
