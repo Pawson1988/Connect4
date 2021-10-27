@@ -34,8 +34,6 @@ const winningArray = [
 ]; 
 
 
-
-
 function checkBoard(){
 
         for(let y = 0; y < winningArray.length; y++){
