@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -38,30 +38,4 @@ body {
 .player-two {
     background-color: red;
     border-radius: 50%;
-=======
-
-
-.container {
-    border: 1px solid black;
-    width: 140px;
-    height: 120px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.box, .taken {
-    width: 20px;
-    height: 20px;
-}
-
-.player-one {
-    background-color: blue;
-    border-radius: 50%;
-}
-
-.player-two {
-    background-color: red;
-    border-radius: 50%;
->>>>>>> 4f8da603875253f4b67fe6cd3115bceeec8ed209
 }
